@@ -15,7 +15,7 @@ body {
   font-family: "poppins", sans-serif;
   min-height: 100vh;
   min-width: 100vw;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -46,7 +46,7 @@ body {
 #time {
   display: flex;
   justify-content: center;
-  /* margin-top: 6rem; */
+  margin-top: 4rem;
   /* margin-bottom: 4rem; */
   gap: 30px;
 }
@@ -131,41 +131,57 @@ body {
   font-size: 0.5em;
   font-weight: 300;
 }
-
-.para {
-}
 .abc {
   /* position: relative; */
   /* left: 35%;
   top: 3%; */
   text-align: center;
   font-size: 2.2vw;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 .we {
-  font-size: 15vw;
-  text-align: center;
+  /* text-align: center; */
+  height: 20vh;
+  font-size: 13vw;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5rem;
   /* margin-left: 9%; */
 }
-.next {
-  @media (max-width: 600px) {
-    .container {
-      width: 95%;
-    }
-    .four i {
-      margin: 3px;
-      font-size: 17px;
-    }
-    .fir,
-    .sec,
-    .thir p {
-      font-size: 10px;
-    }
-    .name {
-      font-size: 10.5px;
-    }
+.para p {
+  font-size: 0.6rem;
+  width: 24%;
+  position: relative;
+  left: 15%;
+  /* padding-left: 12rem; */
+}
+.para {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  gap: 10px;
+  width: 100%;
+  margin-top: 4rem;
+  /* width: 50%; */
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+  .four i {
+    margin: 3px;
+    font-size: 17px;
+  }
+  .fir,
+  .sec,
+  .thir p {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 10.5px;
   }
 }
